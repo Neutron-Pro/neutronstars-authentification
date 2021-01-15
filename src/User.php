@@ -1,6 +1,6 @@
 <?php
 
-namespace Authentification\Authentification;
+namespace NeutronStars\Authentification;
 
 class User
 {

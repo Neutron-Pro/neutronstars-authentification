@@ -1,7 +1,7 @@
 <?php
-namespace Authentification\Exemples;
+namespace NeutronStars\Exemples;
 
-use Authentification\Authentification\User;
+use NeutronStars\Authentification\User;
 
 function getUser(): User
 {

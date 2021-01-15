@@ -14,12 +14,12 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Authentification\\Authentification\\": "src/"
+            "NeutronStars\\Authentification\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Authentification\\Exemples\\": "exemples/"
+            "NeutronStars\\Exemples\\": "exemples/"
         }
     }
 }

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
-use function Authentification\Exemples\getUser;
+use function NeutronStars\Exemples\getUser;
 
 $user = getUser();
 
