@@ -8,6 +8,7 @@
             "email": "pro@neutronstars.fr"
         }
     ],
+    "license": "Apache-2.0",
     "require": {
         "php": ">=7.4.0"
     },
