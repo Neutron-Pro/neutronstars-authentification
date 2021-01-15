@@ -1,0 +1,25 @@
+{
+    "name": "neutronstars/authentification",
+    "description": "Authentification library for php",
+    "type": "library",
+    "authors": [
+        {
+            "name": "NeutronStars",
+            "email": "pro@neutronstars.fr"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Authentification\\Authentification\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Authentification\\Exemples\\": "exemples/"
+        }
+    }
+}
