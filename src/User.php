@@ -70,13 +70,14 @@ class User
     public function disconnect(bool $force = false): void
     {
         $this->data = [];
+        if($force){
+            $_SESSION = [];
+            session_destroy();
+            return;
+        }
         if(isset($_SESSION[$this->sessionKey]))
         {
             $_SESSION[$this->sessionKey] = [];
-            if($force){
-                $_SESSION = [];
-                session_destroy();
-            }
         }
     }
 
